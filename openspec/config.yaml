@@ -1,0 +1,20 @@
+schema: spec-driven
+
+context: |
+  Portal web da CPA (Comissão Própria de Avaliação) da Faculdade Impacta.
+  Projeto de extensão feito por alunos. Idioma: português do Brasil.
+  Stack: Python 3.14, Streamlit (st.login com Google, st.navigation), Supabase
+  (Postgres + Storage via supabase-py), dashboards do Looker Studio por iframe.
+  Perfis: visitante, aluno, coordenador, avaliador externo, admin CPA.
+  Visual: faixa azul-marinho no topo, menu lateral escuro "Acesso rápido",
+  títulos em caixa alta, cards azuis (seguir os modelos de tela do projeto).
+  O banco é modelado manualmente pelo Vitor: não gerar tabelas nem SQL.
+
+rules:
+  proposal:
+    - Citar os IDs de requisito (RF/RNF) que a mudança atende
+  specs:
+    - Usar o formato Dado/Quando/Então
+    - Descrever o que cada perfil vê e o que não vê
+  tasks:
+    - Tarefas pequenas, que dão para testar no navegador
