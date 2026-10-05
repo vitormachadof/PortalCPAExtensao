@@ -105,3 +105,40 @@ h1, h2, h3, h4, h5, h6 {
         padding-right: 0.9rem;
     }
 }
+
+.devolutiva-header {
+    align-items: center;
+    background-color: #d9d9d9;
+    color: #1b3a63;
+    display: flex;
+    justify-content: space-between;
+    margin: -1rem -1rem 1rem;
+    padding: 0.65rem 0.85rem;
+}
+
+.devolutiva-header span {
+    color: #4b5563;
+    font-size: 0.8rem;
+}
+
+.devolutiva-title {
+    color: #1f2933 !important;
+    font-size: 1.05rem !important;
+    margin: 0 0 0.8rem;
+    text-transform: none;
+}
+
+.devolutiva-label {
+    color: #1b3a63;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-top: 0.7rem;
+}
+
+.devolutiva-text {
+    color: #374151;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
