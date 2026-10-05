@@ -1,9 +1,6 @@
-# base-layout Specification
+# Spec Delta
 
-## Purpose
-Define a estrutura visual inicial do Portal CPA, com identidade visual institucional, navegação principal e páginas de referência, preservando responsividade e consistência em todas as telas do sistema.
-
-## Requirements
+## MODIFIED Requirements
 
 ### Requirement: Portal CPA exposes a consistent visual shell
 The system SHALL render a top bar with the title "PORTAL CPA" and the subtitle "Comissão Própria de Avaliação", followed by a dark side navigation panel labeled "ACESSO RÁPIDO" and a main content area for page content. Para usuários autenticados, a área principal também deve apresentar o cartão de identidade e a ação de saída.
