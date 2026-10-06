@@ -142,3 +142,27 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     white-space: pre-wrap;
 }
+
+.document-title {
+    color: #1f2933;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
+}
+
+.document-metadata {
+    align-items: center;
+    color: #4b5563;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    gap: 1.25rem;
+}
+
+.document-restricted {
+    background-color: #e5e7eb;
+    border-radius: 0.25rem;
+    color: #4b5563;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.45rem;
+}
