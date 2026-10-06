@@ -95,6 +95,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #1b3a63 !important;
 }
 
+[data-testid="stHeading"] a,
+.stMarkdown h1 a,
+.stMarkdown h2 a,
+.stMarkdown h3 a,
+.stMarkdown h4 a,
+.stMarkdown h5 a,
+.stMarkdown h6 a {
+    display: none !important;
+}
+
 @media (max-width: 768px) {
     .portal-brand {
         font-size: 1.6rem;
@@ -165,4 +175,117 @@ h1, h2, h3, h4, h5, h6 {
     color: #4b5563;
     font-size: 0.75rem;
     padding: 0.2rem 0.45rem;
+}
+
+.st-key-contact-chat-card,
+.st-key-contact-meet-card {
+    background-color: #24557a;
+    color: #ffffff;
+    min-height: 9.5rem;
+    padding: 1.1rem 1.2rem;
+}
+
+.st-key-contact-chat-card [data-testid="stMarkdownContainer"],
+.st-key-contact-meet-card [data-testid="stMarkdownContainer"] {
+    color: #ffffff;
+}
+
+.contact-card-content h2 {
+    color: #ffffff !important;
+    font-size: 1.05rem;
+    margin: 0 0 0.7rem;
+}
+
+.contact-card-content p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin: 0 0 1rem;
+}
+
+.st-key-contact-chat-card [data-testid="stLinkButton"],
+.st-key-contact-meet-card [data-testid="stLinkButton"] {
+    margin-top: 0.2rem;
+}
+
+.st-key-contact-chat-card [data-testid="stLinkButton"] a,
+.st-key-contact-meet-card [data-testid="stLinkButton"] a {
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    color: #1b3a63 !important;
+    font-weight: 700 !important;
+}
+
+.st-key-contact-chat-card [data-testid="stLinkButton"] a:hover,
+.st-key-contact-chat-card [data-testid="stLinkButton"] a:focus,
+.st-key-contact-meet-card [data-testid="stLinkButton"] a:hover,
+.st-key-contact-meet-card [data-testid="stLinkButton"] a:focus {
+    background-color: #e5edf3 !important;
+    border-color: #e5edf3 !important;
+    color: #1b3a63 !important;
+}
+
+.contact-unavailable {
+    color: #d7dee5;
+    font-size: 0.8rem;
+    margin: 0.35rem 0 0;
+}
+
+.contact-info-strip {
+    background-color: #d9d9d9;
+    color: #374151;
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+}
+
+.contact-info-strip > div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.contact-info-strip strong {
+    color: #4b5563;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+}
+
+.contact-info-strip span,
+.contact-info-strip a {
+    color: #374151;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .st-key-contact-chat-card,
+    .st-key-contact-meet-card {
+        min-height: auto;
+    }
+
+    .contact-info-strip {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
+
+/* Botões de link legíveis (ex.: Contato) — precisa ficar no FINAL do arquivo */
+a[data-testid^="stBaseLinkButton"],
+a[data-testid^="stBaseLinkButton"] p,
+a[data-testid^="stBaseLinkButton"] span,
+a[data-testid^="stBaseLinkButton"] div,
+[data-testid="stLinkButton"] a,
+[data-testid="stLinkButton"] a * {
+  background-color: #ffffff !important;
+  color: #1b3a63 !important;
+  font-weight: 700 !important;
+}
+
+a[data-testid^="stBaseLinkButton"]:hover,
+a[data-testid^="stBaseLinkButton"]:hover *,
+[data-testid="stLinkButton"] a:hover,
+[data-testid="stLinkButton"] a:hover * {
+  background-color: #e8eef5 !important;
+  color: #1b3a63 !important;
 }
